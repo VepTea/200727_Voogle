@@ -1,13 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+
+.navbar svg{
+    color:#ced4da;
+    margin: 25px;
+    float: left;
+    transition: 0.3s;
+}
+.navbar svg:nth-child(2):active{
+    color: rgb(255, 28, 28);
+    transform: scale(130%);
+    transition: 0s;
+    float: right;
+}
+
+.navbar svg:active{
+    color: rgb(255, 106, 60);
+    transform: scale(130%);
+    transition: 0s;
+
+}
+
 #title-pic-case {
 width: 150px;
 height: 150px;
 border-radius: 50%;
 overflow: hidden;
 margin: 150px auto 0 auto;
+box-shadow: 10px,10px,10px,rgb(174, 46, 46);
 }
 #title-pic{
-    width: 150%;
-    transform: translate(-15%, 0);
+    width: 100%;
+    /* transform: translate(-15%, 0); */
 }
 h1 {
     text-align: center;
@@ -49,6 +82,9 @@ h1 span:nth-child(6) {
 
         width: 90%;
         margin: auto;
+}
+h1 {
+    font-size: 50px;
 }
 #title-pic-case {
 margin-top: 50px;}
