@@ -20,20 +20,17 @@ svg{
     color:#ced4da;
     margin: 25px;
     float: left;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 svg:nth-child(2):active{
     color: rgb(255, 28, 28);
     transform: scale(130%);
-    transition: 0s;
     float: left;
 }
 
 svg:active{
     color: rgb(255, 106, 60);
     transform: scale(130%);
-    transition: 0s;
-
 }
 
 #title-pic-case {
